@@ -6,28 +6,29 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 박보겸
+title: 팀과 함께 성장하고, 코드에 몰입하는 백엔드 개발자
+email: pbk0398@gmail.com
+web: https://velog.io/@pbk0398/posts
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: 
+github_username:  bogyeom0922
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: profile.php?id=100015180496745
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
+
 
 # Additional icon links
 additional_links:
@@ -48,9 +49,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  백엔드 개발자로서 여러 팀 프로젝트에 참여하며 기초부터 다양한 기술을 익혔습니다. Node.js, SpringBoot, Java, MySQL, Python, AWS 등을 사용한 백엔드 개발과 간단한 프론트엔드 작업을 통해 실제 서비스를 개발하는 경험을 쌓았습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  저는 팀원들과의 소통과 협업을 가장 중요하게 생각합니다. 개발 과정에서 기술적인 문제 해결뿐만 아니라, 팀의 목표를 달성하고 모두가 함께 성장할 수 있도록 돕는 데 큰 가치를 둡니다. 새로운 문제를 해결하며 팀의 목표를 함께 이루어나가는 과정에서 협업의 중요성을 깨닫고, 모두가 함께 성장하는 즐거움을 느꼈습니다.
+
+  단순히 기능을 완성하는 데 그치지 않고, 지속적으로 코드를 리팩토링하며 확장성과 유지보수성이 뛰어난 백엔드 아키텍처를 설계하는 데 몰입해왔습니다. 이런 경험을 통해 더 나은 개발자로 성장해 나가고 있습니다.
 
 content:
   - title: Projects # Title for the section
