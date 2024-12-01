@@ -64,7 +64,8 @@ content:
           - **AWS를 이용한 배포 및 서비스 운영**
             - AWS EC2 인스턴스를 사용하여 서버를 배포하고 서비스 운영
             - AWS RDS를 이용한 MySQL 데이터베이스 운영
-
+        separator: true
+      
       - layout: top-middle
         title: EatToday
         link: https://github.com/bogyeom0922/EatToday
