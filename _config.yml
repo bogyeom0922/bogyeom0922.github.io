@@ -36,7 +36,6 @@ content:
       - layout: top-middle
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
-        class: project-item
         sub_title: 맞춤형 음악 추천 기능을 제공하는 음악 스트리밍 서비스
         caption: 2024.03 ~ 2024.10
         quote: >
@@ -65,12 +64,10 @@ content:
           - **AWS를 이용한 배포 및 서비스 운영**
             - AWS EC2 인스턴스를 사용하여 서버를 배포하고 서비스 운영
             - AWS RDS를 이용한 MySQL 데이터베이스 운영
-          ---
 
       - layout: top-middle
         title: EatToday
         link: https://github.com/bogyeom0922/EatToday
-        class: project-item
         sub_title: Spring Boot
         caption: 2023.07 ~
         quote: >
