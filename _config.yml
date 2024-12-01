@@ -33,7 +33,7 @@ content:
   - title: Projects & Experience
     layout: list
     content:
-      - layout: top-right
+      - layout: top-middle
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
         class: project-item
