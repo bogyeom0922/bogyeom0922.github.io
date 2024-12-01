@@ -33,7 +33,7 @@ content:
   - title: Projects & Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
         class: project-item
@@ -67,7 +67,7 @@ content:
             - AWS RDS를 이용한 MySQL 데이터베이스 운영
 
 
-      - layout: left
+      - layout: top
         title: EatToday
         link: https://github.com/bogyeom0922/EatToday
         class: project-item
