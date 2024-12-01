@@ -541,9 +541,9 @@ ul.icons a {
   background-size: cover;
   background-position: center;
   background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
-  -webkit-box-shadow: inset 0 0 20px #636161;
-  box-shadow: inset 0 0 20px #636161
+  -moz-box-shadow: inset 0 0 20px #929292;
+  -webkit-box-shadow: inset 0 0 20px #929292;
+  box-shadow: inset 0 0 20px #929292
 }
 
 .list-container h3 {
@@ -649,6 +649,15 @@ ul.icons a {
   text-align: center
 }
 
+.layout-top-middle {
+  margin-bottom: 30px; 
+}
+
+.layout-top-middle + hr {
+  margin-top: 20px;
+  border-top: 1px solid #ddd; 
+}
+
 .footer-container {
   margin-top: 100px
 }
@@ -695,4 +704,8 @@ p.quote {
       padding: 0rem 1rem;
       margin-top: 1rem
   }
+}
+
+.description {
+  line-height: 1.8;  // 줄 간격을 1.8로 설정하여 내용 간 간격 늘리기
 }
