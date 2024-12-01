@@ -33,7 +33,7 @@ content:
   - title: Projects & Experience
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-right
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
         class: project-item
@@ -65,9 +65,9 @@ content:
           - **AWS를 이용한 배포 및 서비스 운영**
             - AWS EC2 인스턴스를 사용하여 서버를 배포하고 서비스 운영
             - AWS RDS를 이용한 MySQL 데이터베이스 운영
+          ---
 
-
-      - layout: top
+      - layout: top-middle
         title: EatToday
         link: https://github.com/bogyeom0922/EatToday
         class: project-item
@@ -82,7 +82,7 @@ content:
           - CSS와 JavaScript를 활용해 직관적인 UI 설계
 
 
-      - layout: left
+      - layout: top-middle
         title: Text Me Merry Christmas
         link: https://github.com/bogyeom0922/MiTi
         sub_title: Node.js
@@ -96,20 +96,20 @@ content:
           - CSS와 JavaScript를 활용해 직관적인 UI 설계
 
 
-      # - layout: left
-      #   title: 우아한 테크코스_프리코스
-      #   link: https://github.com/bogyeom0922/java-convenience-store-7-bogyeom0922
-      #   sub_title: Java
-      #   caption: 2024.10 ~ 2022.11
-      #   quote: >
+      - layout: top-middle
+        title: 우아한 테크코스_프리코스
+        link: https://github.com/bogyeom0922/java-convenience-store-7-bogyeom0922
+        sub_title: Java
+        caption: 2024.10 ~ 2022.11
+        quote: >
 
-      #   description: |
+        description: |
 
 
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: 건국대학교 글로컬캠퍼스
         caption: 2020.3 - 2024.2
         sub_title: ICT융합공학부 소프트웨어전공
