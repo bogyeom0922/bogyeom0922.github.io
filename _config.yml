@@ -33,7 +33,7 @@ content:
   - title: Projects & Experience
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-left
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
         sub_title: 맞춤형 음악 추천 기능을 제공하는 음악 스트리밍 서비스
@@ -68,8 +68,7 @@ content:
           **AWS를 이용한 배포 및 서비스 운영**
             - AWS EC2 인스턴스를 사용하여 서버를 배포하고 서비스 운영
             - AWS RDS를 이용한 MySQL 데이터베이스 운영
-          ---
-          ***
+          
           ___
       
       - layout: top-middle
