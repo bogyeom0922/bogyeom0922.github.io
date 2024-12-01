@@ -36,10 +36,7 @@ content:
       - layout: top
         title: MiTi
         link: https://github.com/bogyeom0922/MiTi
-        sub_title: |
-          맞춤형 음악 추천 기능을 제공하는 음악 스트리밍 서비스
-
-          Spring Boot, Java, Python, JavaScript, CSS, MySQL
+        sub_title: 맞춤형 음악 추천 기능을 제공하는 음악 스트리밍 서비스
         caption: 2024.03 ~ 2024.10
         quote: >
           
@@ -74,13 +71,13 @@ content:
           
           ___
       
-      - layout: top-middle
+      - layout: top
         title: EatToday
         link: https://github.com/bogyeom0922/EatToday
-        sub_title: Spring Boot
+        sub_title: 메뉴와 음식점을 추천해주는 서비스
         caption: 2023.07 ~
         quote: >
-          메뉴와 음식점을 추천해주는 서비스
+          
         description: |
           - 음식점 랜덤 추천 기능 구현
           - Spring Boot를 활용한 음식점 상세 정보 조회
@@ -88,21 +85,23 @@ content:
           - CSS와 JavaScript를 활용해 직관적인 UI 설계
 
 
-      - layout: top-middle
+      - layout: top
         title: Text Me Merry Christmas
         link: https://github.com/bogyeom0922/MiTi
-        sub_title: Node.js
+        sub_title: 크리스마스를 위한 미니홈피(SNS) 제작
         caption: 2022.10 ~ 2022.12
         quote: >
-          크리스마스를 위한 미니홈피(SNS) 제작
+          
         description: |
           - 사용자 간 크리스마스 카드 전송 및 답장 기능
           - 마이페이지에서 설정한 노래 재생 기능 제공
           - 캐롤 등록 및 추천 기능 구현
           - CSS와 JavaScript를 활용해 직관적인 UI 설계
+            
+          ___
 
 
-      - layout: top-middle
+      - layout: top
         title: 우아한 테크코스_프리코스
         link: https://github.com/bogyeom0922/java-convenience-store-7-bogyeom0922
         sub_title: Java
@@ -121,8 +120,8 @@ content:
         sub_title: ICT융합공학부 소프트웨어전공
         description: |
           C, C++, Python, R, Java, Javascript, UNIX 등 다양한 프로그래밍 언어를 학습하였으며, 
-          특히 JavaScript와 Node.js를 이용한 웹 개발 및 서버 구축 프로젝트 경험이 있습니다.
-          또한, 팀 프로젝트를 통해 협업 능력을 키웠고, 데이터 수집 및 분석을 위한 Python과 R을 활용한 
+          특히 JavaScript와 Node.js를 이용한 **웹 개발 및 서버 구축 프로젝트 경험**이 있습니다.
+          또한, 팀 프로젝트를 통해 **협업 능력**x을 키웠고, 데이터 수집 및 분석을 위한 Python과 R을 활용한 
           경험도 갖추었습니다.
 
 # Footer
