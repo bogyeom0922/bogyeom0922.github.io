@@ -41,7 +41,7 @@
           Email: <a href="mailto:pbk0398@gmail.com" target="_blank">pbk0398@gmail.com</a>
         </p><p>
           Web: 
-<a href="https://velog.io/@pbk0398/posts" target="_blank" class="">https://velog.io/@pbk0398/posts</a>
+<a href="https://dingco-ringco.tistory.com/" target="_blank" class="">https://dingco-ringco.tistory.com/</a>
         </p></div>
   </div>
 </div>
@@ -91,22 +91,31 @@
   </li>
 </ul>
 
-<p>👉 <a href="https://dingco-ringco.tistory.com/11">Spotify 크롤링 문제점 및 개선 과정</a></p>
-
 <p><strong>MySQL과 Python을 연동하여 개인 맞춤형 음악 추천 알고리즘 제작</strong></p>
 <ul>
   <li>사용자가 재생한 음악 기록을 기반으로 개인화된 음악 추천 제공</li>
-  <li>변화하는 취향에 맞게 재생할 때마다 추천 알고리즘을 리프레시</li>
-  <li>음악 재생 시 끊김 없이 재생할 수 있도록 유사한 음악을 자동으로 재생목록에 추가</li>
+  <li>음악 재생 시 끊김 없이 재생할 수 있도록 재생중인 음악과 유사한 음악을 자동으로 재생목록에 추가</li>
   <li>장르별로 각 장르의 특징에 맞는 음악적 특성을 이용해 장르별 음악 재생목록 제공</li>
-  <li>최적화된 추천 알고리즘을 위해 음악의 유사한 특성끼리 그룹으로 묶어 코사인 유사도를 계산하여 최적화된 유사 음악 추천</li>
+  <li>최적화된 추천 알고리즘을 위해 코사인 유사도를 계산하여 최적화된 유사 음악 추천</li>
+  <li>문제점:
+    <ul>
+      <li>사용자의 취향 변화에 따른 추천 음악 변화가 필요</li>
+      <li>알고리즘을 통해 추천된 음악과 사용자 취향간의 유사성이 낮음</li>
+    </ul>
+  </li>
+  <li>해결방안:
+    <ul>
+      <li>변화하는 취향에 맞게 재생할 때마다 추천 알고리즘을 리프레시</li>
+      <li>음악의 유사한 특성끼리 그룹으로 묶어 분리하여 유사도 계산</li>
+    </ul>
+  </li>
 </ul>
 
 <p><strong>Spring Boot를 이용한 스트리밍 사이트 구현</strong></p>
 <ul>
   <li>각 앨범별로 팔로워, 아티스트, 장르, 음악 목록과 같은 상세 정보를 조회</li>
   <li>사용자 간 소통을 위한 댓글 작성 및 조회 기능 구현</li>
-  <li>각 음악 별 공유, 재생목록 추가, 좋아요와 같은 소기능을 제공하는 아코디언 메뉴 개발로 사용자 편의성 향상</li>
+  <li>각 음악별 공유, 재생목록 추가, 좋아요 기능을 아코디언 메뉴로 제공하여 사용자 편의성 향상</li>
   <li>Twitter, Band, Facebook에 공유가 가능하며, 링크 복사 기능 추가</li>
   <li>자신만의 재생목록에 음악을 추가할 수 있고, 새로운 재생목록을 즉시 생성하여 음악을 추가할 수 있도록 구현</li>
 </ul>
@@ -124,6 +133,8 @@
   <li>AWS RDS를 이용한 MySQL 데이터베이스 운영</li>
 </ul>
 
+<p>🔗 <a href="https://dingco-ringco.tistory.com/11">MiTi 프로젝트 개발 과정 보러가기</a></p>
+
 <hr />
 
     </div>
@@ -131,37 +142,43 @@
 
   <div class="row clearfix layout layout-top border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="eattoday">EatToday</h4><p><b>메뉴와 음식점을 추천해주는 서비스</b></p><p>2023.07 ~</p>
+      <h4 id="eattoday">EatToday</h4><p><b>메뉴와 음식점을 추천해주는 서비스</b></p><p>2023.07 ~ 2023.10 / 2024.05 ~</p>
 <a href="https://github.com/bogyeom0922/EatToday" target="_blank" class="link">https://github.com/bogyeom0922/EatToday</a><p class="no-print aditional-links">
         
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote"></p><p><strong>카카오맵을 이용한 음식점 크롤링</strong></p>
 <ul>
-  <li>지역별 음식점 정보를 구, 메뉴별로 분리하여 효율적으로 수집하고 MySQL 데이터베이스에 저장</li>
-</ul>
-
-<p><strong>음식점 추천 기능 구현</strong></p>
-<ul>
-  <li>사용자가 선택한 카테고리 내에서 랜덤으로 음식점 추천</li>
+  <li>지역별 음식점 정보를 구, 카테고리별로 분리하여 효율적으로 수집하고 MySQL 데이터베이스에 저장</li>
 </ul>
 
 <p><strong>Spring Boot를 활용한 음식점 정보 제공 서비스 구현</strong></p>
 <ul>
   <li>음식점의 상세 정보 조회 및 사용자 리뷰 작성, 조회, 수정, 삭제 기능 지원</li>
+  <li>사용자와 식당 관계자 간 실시간 채팅 기능 구현 중</li>
 </ul>
 
 <p><strong>CSS와 JavaScript를 활용해 직관적인 UI 설계</strong></p>
 <ul>
   <li>모든 연령층이 쉽게 사용할 수 있도록 직관적이고 반응형 UI 구현</li>
-  <li>로그인, 회원가입, 아이디/비밀번호 찾기 기능을 레이어 팝업 방식으로 최적화</li>
+  <li>로그인, 회원가입, 아이디/비밀번호 찾기 기능을 레이어 팝업으로 구현하여 UX 개선</li>
+  <li>음식점 위치를 지도에 시각적으로 표시해 탐색 편의성 향상</li>
+  <li>전체 프론트엔드 과정을 직접 설계 및 구현</li>
 </ul>
 
-<p><strong>AWS를 이용한 배포 및 서비스 운영</strong></p>
+<p><strong>AWS 기반 서비스 배포 및 운영</strong></p>
 <ul>
   <li>AWS RDS 기반 MySQL 데이터베이스 관리</li>
-  <li>안정적인 서버 운영을 위해 AWS EC2 인스턴스 활용</li>
+  <li>EC2 인스턴스를 활용해 안정적인 서버 운영 환경 구축</li>
+  <li>Docker, GitHub Actions를 활용한 CI/CD 구성으로 실시간 배포 자동화</li>
 </ul>
+
+<p><strong>기타 개발 요소</strong></p>
+<ul>
+  <li>JUnit 기반 테스트 코드 작성으로 코드 안정성 확보</li>
+</ul>
+
+<p>🔗 <a href="https://dingco-ringco.tistory.com/11">EatToday 프로젝트 개발 과정 보러가기</a></p>
 
 <hr />
 
@@ -170,7 +187,7 @@
 
   <div class="row clearfix layout layout-top border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="text-me-merry-christmas">Text Me Merry Christmas</h4><p><b>크리스마스를 위한 미니홈피(SNS) 제작</b></p><p>2022.10 ~ 2022.12</p>
+      <h4 id="text-me-merry-christmas">Text Me Merry Christmas</h4><p><b>크리스마스를 위한 미니홈피(SNS) 제작</b></p><p>2022.10 ~ 2022.12 / 2024.3 ~</p>
 <a href="https://github.com/bogyeom0922/text_me_merry_christmas" target="_blank" class="link">https://github.com/bogyeom0922/text_me_merry_christmas</a><p class="no-print aditional-links">
         
       </p>
@@ -183,7 +200,6 @@
 
 <p><strong>크리스마스 카드로 사용자 간 소통 기능 구현</strong></p>
 <ul>
-  <li>크리스마스 카드로 사용자 간 소통 기능 구현</li>
   <li>다양한 카드 디자인 제공 및 작성 가능</li>
   <li>사용자가 받은 크리스마스 카드를 마이페이지에서 조회</li>
   <li>트리 장식 및 소원 작성 기능</li>
@@ -196,6 +212,8 @@
   <li>크리스마스 분위기를 강조한 인터페이스 설계</li>
   <li>디데이와 달력을 추가해 사용자 경험 향상</li>
 </ul>
+
+<p>🔗 <a href="https://dingco-ringco.tistory.com/11">Text Me Merry Christmas 프로젝트 개발 과정 보러가기</a></p>
 
 <hr />
 
@@ -226,6 +244,8 @@
   <li>자바 컨벤션 및 일관성 있는 커밋 메시지 작성 규칙 학습</li>
 </ul>
 
+<p>🔗 <a href="https://dingco-ringco.tistory.com/8">진행 과정 중 작성한 회고록</a></p>
+
     </div>
   </div>
 
@@ -237,7 +257,7 @@
             
   <div class="row clearfix layout layout-top-middle border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="건국대학교-글로컬캠퍼스">건국대학교 글로컬캠퍼스</h4><p><b>ICT융합공학부 소프트웨어전공</b></p><p>2020.3 - 2024.2</p><p class="no-print aditional-links">
+      <h4 id="건국대학교-글로컬캠퍼스">건국대학교 글로컬캠퍼스</h4><p><b>ICT융합공학부 소프트웨어전공</b></p><p>2020.03 - 2024.02</p><p class="no-print aditional-links">
         
       </p>
     </div>
