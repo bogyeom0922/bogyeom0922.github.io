@@ -35,15 +35,27 @@ content:
     content:
       - layout: top
         title: MiTi
-        link: https://github.com/bogyeom0922/MiTi
+        link:
+          - https://github.com/bogyeom0922/MiTi
         sub_title: 맞춤형 음악 추천 기능을 제공하는 음악 스트리밍 서비스
         caption: 2024.03 ~ 2024.10
         quote: >
           
         description: |
-          **Spotify를 이용한 음악 크롤링**
-            - 끊김 없는 음악 재생을 위해 재생 가능한 국가를 지정하여 음악 끊김 문제를 개선
-            - 중복된 음악이 저장되지 않도록 검토 과정을 추가
+          **Spotify를 이용한 음악 크롤링 개선**
+          - 문제점:
+            - 수동으로 음악 ID를 입력하여 시간이 많이 소요됨
+            - 플레이리스트 간 음악 중복 저장
+            - 특정 음악이 국내 재생 불가능
+            - Spotify API 호출 제한 발생
+
+          - 해결방안:
+            - Spotify API를 이용해 카테고리 자동화하여 크롤링 속도 개선
+            - CSV 저장 전 중복 음악 제거 과정 추가
+            - 국내 재생 가능 여부 검사 후 크롤링
+            - API 요청 제한을 위해 카테고리, 플레이리스트, 음악 개수 제한 및 요청 간 시간차 추가
+            
+          👉 [Spotify 크롤링 문제점 및 개선 과정](https://dingco-ringco.tistory.com/11)
 
           **MySQL과 Python을 연동하여 개인 맞춤형 음악 추천 알고리즘 제작**
             - 사용자가 재생한 음악 기록을 기반으로 개인화된 음악 추천 제공
