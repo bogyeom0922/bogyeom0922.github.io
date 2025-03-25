@@ -22,13 +22,23 @@ facebook_username: people/박보겸/pfbid02USLBiWV4wrw8itnmFZ7uFFnfY9yaonNZo2nBL
 # about_title: About Me
 about_profile_image: images/profile_img.JPEG
 about_content: |
-  다양한 팀 프로젝트를 통해 **Node.js, Spring Boot, Java, MySQL, Python, AWS 등 여러 기술**을 익혔으며, 백엔드 개발과 간단한 프론트엔드 작업을 통해 실제 서비스 개발 경험을 쌓았습니다
+  다양한 팀 프로젝트를 통해 **Node.js, Spring Boot, Java, MySQL, MongoDB, Python, AWS** 등을 활용해 **RESTful API**를 설계하고, **데이터베이스 구축 및 최적화, 서비스 개발**을 경험했습니다. **AWS 배포, 프론트엔드 구현**까지 수행하며 웹 애플리케이션 전반을 다룰 수 있습니다.
 
-  저는 기술적 문제 해결뿐만 아니라, **팀원들과의 소통과 협업**을 중요하게 생각합니다. 개발 과정에서 협업을 통해 목표를 달성하고 함께 성장하는 경험을 소중히 여기며 이를 통해 협업의 가치를 깨달았습니다.
-
-  기능 구현에만 그치지 않고, 지속적으로 **코드를 리팩토링**하며 **확장성과 유지보수성을 고려한 설계**를 지향하고 있습니다. 이러한 노력을 통해 더 나은 개발자로 성장하고 있습니다.
+  기능 구현뿐만 아니라, **확장성과 유지보수성을 고려한 리팩터링**을 지속적으로 실천하고 있으며, **소통과 협업**을 중시하며 함께 성장하는 개발 문화를 지향합니다.
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top
+        title: 건국대학교 글로컬캠퍼스
+        caption: 2020.03 - 2024.02
+        sub_title: ICT융합공학부 소프트웨어전공
+        description: |
+          C, C++, Python, R, Java, Javascript, UNIX 등 다양한 프로그래밍 언어를 학습하였으며, 특히 JavaScript와 Node.js를 이용한 웹 개발 및 서버 구축 프로젝트 경험이 있습니다.
+
+          또한, 팀 프로젝트를 통해 협업 능력을 키웠고, 데이터 수집 및 분석을 위한 Python과 R을 활용한 경험도 갖추었습니다.  
+
   - title: Projects & Experience
     layout: list
     content:
@@ -166,19 +176,6 @@ content:
             -	자바 컨벤션 및 일관성 있는 커밋 메시지 작성 규칙 학습
 
           🔗 [진행 과정 중 작성한 회고록](https://dingco-ringco.tistory.com/8)
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-middle
-        title: 건국대학교 글로컬캠퍼스
-        caption: 2020.03 - 2024.02
-        sub_title: ICT융합공학부 소프트웨어전공
-        description: |
-          C, C++, Python, R, Java, Javascript, UNIX 등 다양한 프로그래밍 언어를 학습하였으며, 
-          특히 JavaScript와 Node.js를 이용한 **웹 개발 및 서버 구축 프로젝트 경험**이 있습니다.
-          또한, 팀 프로젝트를 통해 **협업 능력**을 키웠고, 데이터 수집 및 분석을 위한 Python과 R을 활용한 
-          경험도 갖추었습니다.
 
 # Footer
 footer_show_references: true
